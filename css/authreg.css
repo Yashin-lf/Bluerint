@@ -1,0 +1,87 @@
+.infoform {
+    width: 440px;
+    height: 100px;
+
+    margin: auto;
+    margin-top: 200px;
+}
+.logot {
+    width: 440px;
+    position: relative;
+
+    text-align: center;
+}
+.backk {
+    display: flex;
+    position: absolute;
+    top: 9px;
+}
+.backk p {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    color: #2C2C2C;
+}
+.selectauth {
+    display: flex;
+    margin-top: 20px;
+}
+input {
+    padding-left: 20px;
+    width: 420px;
+    height: 50px;
+    border-radius: 5px;
+    background: #D8D8D8;
+    color: #2C2C2C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+button {
+    width: 440px;
+    height: 50px;
+    border-radius: 5px;
+    background: #F24747;
+    color: #EFEFEF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 10px  rgba(0, 0, 0, 0.1);
+}
+.alert {
+    
+        width: 440px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px dashed #F24747;
+        color: #EFEFEF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 20px;
+    
+}
+.alert p {
+    color: #F24747;
+    padding-top: 15px;
+    font-weight: 700;
+}
+.goodalert {
+    width: 440px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px dashed #41bd51;
+        color: #EFEFEF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 20px;
+}
+.goodalert p {
+    color: #41bd51;
+    padding-top: 15px;
+    font-weight: 700;
+}

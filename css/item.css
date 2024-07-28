@@ -1,0 +1,465 @@
+.iteminfo {
+    width: 770px;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    margin-top: 20px;
+}
+.logoitem {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.logoitem img {
+    height: 50px;
+    width: 50px;
+}
+.itemname {
+    margin-left: 20px;
+    padding-top: -2px;
+}
+.itemname h3 {
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+}
+.itemname p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.gallerycont {
+    width: 770px;
+    height: 415px;
+    background: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.gallerycont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#screenone {
+    display: block;
+}
+#screentwo {
+    display: none;
+}
+#screenthree {
+    display: none;
+}
+#screenfour {
+    display: none;
+}
+
+.aboutitem {
+    width: 770px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.selectinfo {
+    height: 68px;
+    width: 690px;
+    margin-left: 40px;
+    display: flex;
+    border-bottom: #9B9B9B solid 2px;
+}
+.selectinfo h4{
+    margin-right: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 41px;
+    color: #666666;
+    cursor: pointer;
+}
+.aboutitem p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2C2C2C;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    display: block;
+}
+.activesel {
+    border-bottom: 4px solid #F24747;
+    color: #2C2C2C;
+    cursor: pointer;
+}
+.write {
+    width: 770px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+textarea {
+    min-width: 690px;
+    max-width: 690px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    background: #D9D9D9;
+    border-bottom: #9B9B9B solid 2px;
+    color: #2C2C2C;
+    font-weight: 600;
+    min-height: 40px;
+}
+.write button {
+    background: #F24747;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.write button:hover {
+    transform: scale(1.1);
+    
+}
+
+
+.comment {
+    width: 770px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.comprofile {
+    display: flex;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.avatarcom {
+    height: 50px;
+    width: 50px;
+    background: #2C2C2C;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.avatarcom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.profinfo h3 {
+    font-size: 18px;
+    color: #2C2C2C;
+    font-family: 'Outfit', sans-serif;
+}
+.profinfo p {
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Outfit', sans-serif;
+}
+.profinfo {
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 500px;
+}
+.likes {
+    display: flex;
+    padding-top: 12px;
+}
+.likes path:hover {
+    fill: #F24747;
+    stroke: #F24747;
+}
+.likes p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+.liked path{
+    fill: #F24747;
+    stroke: #F24747;
+}
+.moreprof {
+    padding-top: 14px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.report {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    background: #F24747;
+    border-radius: 5px;
+    top: 6px;
+    right: 20px;
+    display: none;
+}
+.moreprof:hover .report {
+    display: block;
+}
+.report:hover {
+
+}
+.report p {
+    color: white;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+.comp {
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+
+.spec {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+.spec h4 {
+    width: 140px;
+    color: #2C2C2C;
+}
+.specp {
+    color: #2C2C2C;
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    
+}
+.minspec {
+    display: none;
+}
+
+
+
+.itemright {
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+.itemstats {
+    width: 250px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.itemstats h3 {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    color: #2C2C2C;
+}
+.itemstats p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #666666;
+    padding-top: 20px;
+}
+.itemstats button {
+    width: 100%;
+    height: 40px;
+    background: #F24747;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.itemstats button:hover {
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.199);
+    transform: scale(1.05);
+}
+
+.favbtn {
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+
+}
+.favbtn h4 {
+    font-family: 'Outfit', sans-serif;
+    margin-left: 16px;
+    padding-top: 19px;
+    transition: 0.02s;
+    color: #2C2C2C;
+}
+.favbtn svg {
+    margin-left: 20px;
+    margin-top: 17px;
+}
+.favbtn:hover {
+    background: #F24747;
+    color: white;
+}
+.favbtn:hover h4 {
+    color: white;
+}
+.favbtn:hover svg path {
+    fill: white;
+}
+
+.est {
+    background: #F24747;
+}
+.est h4 {
+    color: white;
+}
+.est svg path {
+    fill: white;
+}
+
+.est:hover {
+    background: #D9D9D9;
+}
+.est:hover h4 {
+    color: #2C2C2C;
+}
+.est:hover svg path {
+    fill: #2C2C2C;
+}
+
+.genremorep {
+    font-size: 12px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.genremore {
+    width: 290px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.genreitem {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.genreitem img {
+    height: 25px;
+    width: 25px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.genreitem h4 {
+    margin-left: 16px;
+    padding-top: 20px;
+}
+.genreitem:hover {
+    background: #c5c5c5;
+}
+
+
+
+
+
+
+@media (max-width: 1500px) {
+
+    .gallerycont {
+        width: 790px;
+    }
+    .aboutitem {
+        width: 790px;
+    }
+    .write {
+        width: 790px;
+    }
+    .comment {
+        width: 790px;
+    }
+    .itemright {
+        position: relative;
+        top: 0;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+    .itemstats {
+        width: 790px;
+    }
+    .itemstats button {
+        width: 750px;
+    }
+    .itemstats button:hover {
+        transform: scale(1.03);
+    }
+    .favbtn {
+        width: 790px;
+    }
+    .genremore {
+        width: 790px;
+    }
+    textarea {
+        max-width: 750px;
+        max-width: 750px;
+    }
+}
+
+
+
+@media (max-width: 940px) {
+
+    .gallerycont {
+        width: 508px;
+        height: 290px;
+    }
+    .aboutitem {
+        width: 508px;
+    }
+    .write {
+        width: 508px;
+    }
+    .comment {
+        width: 508px;
+    }
+    .itemstats {
+        width: 508px;
+    }
+    .itemstats button {
+        width: 470px;
+    }
+    .itemstats button:hover {
+        transform: scale(1.03);
+    }
+    .favbtn {
+        width: 508px;
+    }
+    .genremore {
+        width: 508px;
+    }
+    .selectinfo {
+        width: 430px;
+    }
+    textarea {
+        width: 430px;
+        min-width: 430px;
+    }
+    .avatarcom {
+        height: 50px;
+        width: 50px;
+    }
+}

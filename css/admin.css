@@ -1,0 +1,148 @@
+.selectcont {
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+}
+.what {
+    background: #F24747;
+    width: 170px;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+.what h3 {
+    padding-top: 26px;
+}
+.selcon {
+    background: #D8D8D8;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    color: #2C2C2C;
+}
+.selcon h3 {
+    padding-top: 26px;
+}
+.selcon:hover {
+    background: #b1b1b1;
+}
+.goback {
+    position: absolute;
+    top: 128px;
+    left: 670px;
+    width: 100px;
+    height: 40px;
+    background: #F24747;
+    border-radius: 5px;
+    text-align: center;
+}
+.goback p {
+    color: white;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.additem {
+    width: 770px;
+    height: 50px;
+    background: #F24747;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+}
+.additem p {
+    font-size: 18px;
+    padding-top: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.products {
+    width: 770px;
+    margin-top: 40px;
+}
+.prodflex {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+.prodflex p:nth-child(1) {
+    width: 100px;
+}
+.prodflex p:nth-child(2) {
+    width: 250px;
+}
+.prodflex p:nth-child(3) {
+    width: 170px;
+}
+.prodflex p:nth-child(4) {
+    width: 100px;
+}
+
+.prodflex img {
+    width: 40px;
+    height: 40px;
+}
+.itemimage {
+    width: 100px;
+}
+.edititem {
+    height: 40px;
+    width: 150px;
+    background: #F24747;
+    border-radius: 5px;
+    text-align: center;
+}
+.edititem:hover {
+    background: #2C2C2C;
+}
+.edititem p {
+    padding-top: 11px;
+    font-weight: 600;
+    color: white;
+    margin-left: 26px;
+}
+
+.editform {
+    width: 420px;
+    margin-top: 40px;
+}
+.editform input {
+    height: 50px;
+    width: 460px;
+    background: #9B9B9B;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: #2C2C2C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.editform button {
+    height: 50px;
+    width: 480px;
+    background: #F24747;
+    border-radius: 10px;
+    color: #EFEFEF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.delitem {
+    height: 50px;
+    width: 480px;
+    background: #F24747;
+    border-radius: 10px;
+    background: #2C2C2C;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.delitem p {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-top: 14px;
+}
